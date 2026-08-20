@@ -26,3 +26,4 @@ Index池/
 | [选品](./选品/README.md) | 从全量商品中执行有效性、安全、质量和场景约束，形成可推荐商品子集。 |
 | [Index 构建](./Index构建/README.md) | 构建 ID-to-Item 键值索引与 Embedding-to-Item 向量索引。 |
 | [ANN](./Index构建/ANN/README.md) | ANN 方法版图、选型依据、评测方法和 Python 示例。 |
+| [文献](../../文献/Index池/README.md) | 向量索引、近似最近邻与大规模相似度检索的代表论文。 |

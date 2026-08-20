@@ -9,14 +9,12 @@
 ├── README.md
 ├── 冷启动问题综述.md
 ├── InterviewAndPractice.md
-├── 方法详解/
-│   ├── NewUser.md
-│   ├── NewItem.md
-│   ├── TransferAndFewShot.md
-│   ├── Exploration.md
-│   └── CaseStudies.md
-└── 文献/
-    └── 冷启动文献综述.md
+└── 方法详解/
+    ├── NewUser.md
+    ├── NewItem.md
+    ├── TransferAndFewShot.md
+    ├── Exploration.md
+    └── CaseStudies.md
 ```
 
 ## 文件说明
@@ -30,4 +28,4 @@
 | [方法详解/TransferAndFewShot.md](./方法详解/TransferAndFewShot.md) | 介绍跨域迁移、域适配、元学习、少样本学习以及负迁移诊断。 |
 | [方法详解/Exploration.md](./方法详解/Exploration.md) | 介绍 Bandit、奖励设计、安全探索、反馈日志和反事实评价。 |
 | [方法详解/CaseStudies.md](./方法详解/CaseStudies.md) | 分析短视频、电商、新闻、广告、本地生活和社区等场景中的冷启动方案。 |
-| [文献/冷启动文献综述.md](./文献/冷启动文献综述.md) | 按研究主题整理代表论文、实验协议、复现注意事项和推荐阅读路线。 |
+| [冷启动文献综述](../文献/冷启动问题/冷启动文献综述.md) | 按研究主题整理代表论文、实验协议、复现注意事项和推荐阅读路线。 |
