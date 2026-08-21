@@ -6,7 +6,7 @@
 
 ## 内容导航
 
-- [生成式召回综述](./生成式召回综述.md)：物品 ID 与语义 ID、自回归训练、约束解码、TIGER、HSTU、OneRec 和工程评估。
+- [生成式召回综述](./生成式召回综述.md)：物品标识与 tokenizer、自回归训练、约束解码、典型工作、工业延迟优化、混合部署、优缺点和评估体系。
 - [model.py](./model.py)：使用 GRU 根据用户历史预测下一物品的最小生成式召回模型。
 - [train.py](./train.py)：原始 item ID 分类基线的样本组织、训练和评估入口。
 - [semantic_id.py](./semantic_id.py)：残差量化、语义 ID 碰撞处理和合法 ID Trie。
