@@ -46,10 +46,10 @@ flowchart LR
 FiBiNET 先聚合全部字段，经过压缩与激励网络得到字段缩放系数 $s_i$，以 $\boldsymbol{e}_i'=s_i\boldsymbol{e}_i$ 重标定字段。随后对字段对做双线性变换，例如：
 
 $$
-\boldsymbol{p}_{ij}=\boldsymbol{e}_i^{\top}\boldsymbol{W}\boldsymbol{e}_j,
+\boldsymbol{p}_{ij}=\boldsymbol{e}_i\odot(\boldsymbol{W}\boldsymbol{e}_j),
 $$
 
-其中 $\boldsymbol{W}$ 可为共享、按字段对或分组参数。原始与重标定后的交互可同时输入 DNN。
+其中 $\boldsymbol{W}$ 可为共享、按字段对或分组参数。此处为向量形式的双线性交互，与示例实现一致；将该向量再求和可得到标量双线性形式。原始与重标定后的交互可同时输入 DNN。
 
 ```mermaid
 flowchart LR

@@ -26,6 +26,8 @@ $$
 \boldsymbol{v}_{interest}=\sum_{i\in\mathcal{H}}\alpha_i\boldsymbol{e}_{h_i}.
 $$
 
+原始 DIN 的局部激活权重可直接用于加权求和；本页和示例采用 softmax 归一化的 DIN-style 变体，使不同有效历史长度下的聚合尺度更稳定。两者不应在未说明归一化方式时混作同一实现。
+
 其中 $\mathcal{H}$ 排除 padding 位置。实现中必须在 softmax 前屏蔽 padding，否则补零位置会参与注意力归一化，尤其会污染短序列样本。
 
 ```mermaid
