@@ -39,10 +39,12 @@ RecSys-Handbook/
 │   │       └── DIN/{README.md,model.py,train.py}
 │   └── L3后处理/
 │       ├── README.md
-│       ├── 综述.md
-│       └── 主要实现架构/
-│           ├── README.md
-│           └── MMR/{README.md,rerank.py,example.py}
+│       ├── 后处理系统综述.md
+│       ├── 基础规则与约束/{去重与实体归并,频控与疲劳控制,库存与合规过滤}/
+│       ├── 列表重排/{MMR,意图覆盖与xQuAD,DPP与集合建模}/
+│       ├── 约束优化与编排/{贪心配额,整数规划与拉格朗日方法}/
+│       ├── 公平与生态/曝光公平与长尾扶持/
+│       └── 长期策略/{Contextual Bandit,Slate与强化学习}/
 ├── 冷启动问题/
 │   ├── README.md
 │   ├── 冷启动问题综述.md
