@@ -50,3 +50,5 @@ flowchart LR
 | --- | --- |
 | [Contextual Bandit](./Contextual%20Bandit/README.md) | 在受控流量中探索候选或策略。 |
 | [Slate 与强化学习](./Slate与强化学习/README.md) | 建模位置间交互与延迟长期回报。 |
+
+Slate 与列表级长期决策的论文见[ L3 后处理文献](../../../文献/L3后处理/README.md)；Contextual Bandit、策略概率与反事实评价的基础论文按主要贡献维护在[冷启动问题文献](../../../文献/冷启动问题/冷启动文献综述.md)。
